@@ -24,7 +24,7 @@ def select_link_bar():
 def paste_link():
     p.write('http://censobasico.inep.gov.br/censobasico/#/inicioMatricula')
     p.hotkey('enter')
-    t.sleep(0.2)
+    t.sleep(0.5)
     
     
 def click_aluno():

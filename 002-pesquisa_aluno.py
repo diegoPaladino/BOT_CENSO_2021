@@ -46,8 +46,7 @@ def select_pesquisar_student_censo():
 def paste_student_name():
     p.moveTo(x=327, y=-134,duration=0.2)
     p.click()
-    p.hotkey('ctrl','a')
-    t.sleep(0.2)
+    p.hotkey('ctrl','a',duration=0.2)
     p.hotkey('ctrl','v',duration=0.2)
     p.hotkey('tab')
     t.sleep(0.2)
@@ -75,7 +74,22 @@ def clicking_white_area():
     t.sleep(0.2)
     
 def positining_page():
-    p.hotkey('ctrl','down')
+    p.hotkey('ctrl','down',duration=0.2)
+    
+def search_mother_name():
+    p.hotkey('esc','left')
+    t.sleep(0.2)
+    p.moveTo(x=260, y=180,duration=0.2)
+    p.dragTo(x=728, y=180, button='left',duration=0.2)
+    p.hotkey('ctrl','c',duration=0.2)
+    t.sleep(0.2)
+    p.hotkey('esc')
+    p.moveTo(x=271, y=-28,duration=0.2)
+    p.click()
+    t.sleep(0.2)
+    p.hotkey('ctrl','f',duration=0.2)
+    t.sleep(0.2)
+    
     
     
 
@@ -97,6 +111,9 @@ enter()
 t.sleep(1)
 clicking_white_area()
 positining_page()
+select_excel()
+search_mother_name()
+enter()
 
 
 
