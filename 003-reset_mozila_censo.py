@@ -33,6 +33,19 @@ def click_aluno():
     
 def mouse_reposition_1():
     p.moveTo(x=589, y=48,duration=0.2)
+    
+def select_opera():
+    p.moveTo(x=225, y=-22,duration=0.2)
+    p.click()
+    t.sleep(0.2)
+    
+def refresh_enrollment():
+    p.moveTo(x=247, y=-681,duration=0.2)
+    p.click()
+    t.sleep(0.2)
+    p.moveTo(x=243, y=-558,duration=0.2)
+    p.click()
+    t.sleep(0.2)
 
 # executing
 
@@ -40,4 +53,6 @@ select_mozila()
 select_link_bar()
 paste_link()
 click_aluno()
+select_opera()
+refresh_enrollment()
 mouse_reposition_1()
