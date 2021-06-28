@@ -99,7 +99,7 @@ select_enrollment_box()
 paste_clipboard()
 copy_student_name_opera()
 select_mozila()
-select_name_box_mozila()
+select_name_box_mozila(
 paste_clipboard()
 tab_tab()
 select_opera()
