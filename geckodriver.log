@@ -15,3 +15,4 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1624873374232	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624878649422	Marionette	INFO	Stopped listening on port 58592
