@@ -90,6 +90,9 @@ def search_mother_name():
     p.hotkey('ctrl','f',duration=0.2)
     t.sleep(0.2)
     p.hotkey('ctrl','v',duration=0.2)
+    t.sleep(0.2)
+    p.hotkey('backspace')
+    t.sleep(0.2)
     
 def select_visual_4():
     p.moveTo(x=512, y=-23,duration=0.2)
@@ -117,4 +120,3 @@ positining_page()
 select_excel()
 search_mother_name()
 enter()
-select_visual_4()
