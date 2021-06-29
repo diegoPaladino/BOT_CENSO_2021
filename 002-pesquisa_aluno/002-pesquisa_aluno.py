@@ -13,6 +13,7 @@ def select_excel():
     p.click()
     t.sleep(0.2)
     
+    
 def reset_position_excel():
     p.hotkey('home')
     t.sleep(0.2)
@@ -59,7 +60,7 @@ def paste_clipboard():
     root = tk.Tk()
     root.withdraw()
     c = root.clipboard_get()
-    p.write(c)
+    p.write(c,interval=0.025)
     
 def enter():
     p.hotkey('enter')
