@@ -8,6 +8,9 @@ import tkinter as tk
 import time as t
 
 # declarations
+def alert():
+    p.alert('Começar vincular?')
+    
 def clicking_white_area():
     p.moveTo(x=230, y=-281,duration=0.2)
     p.click()
@@ -76,6 +79,7 @@ def status_ok():
 
     
 # execution
+alert()
 # clicking_white_area()
 # end_end()
 # click_vinculando_aluno()

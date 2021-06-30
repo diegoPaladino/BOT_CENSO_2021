@@ -8,6 +8,9 @@ import time as t
 
 
 # declarations
+def alert():
+    p.alert('Começar pesquisa censo')
+
 def select_excel():
     p.moveTo(x=317, y=-22,duration=0.2)
     p.click()
@@ -104,6 +107,7 @@ def close_search_window():
 
 
 # execution
+alert()
 select_excel()
 reset_position_excel()
 select_student_column()

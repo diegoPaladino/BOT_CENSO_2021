@@ -8,6 +8,8 @@ import tkinter as tk
 import time as t
 
 # declarating
+def alert():
+    p.alert('Começar reset?')
 
 def select_mozila():
     p.moveTo(x=271, y=-28,duration=0.2)
@@ -27,9 +29,13 @@ def paste_link():
     t.sleep(0.5)
     
     
-def click_aluno():
-    p.moveTo(x=21, y=-497,duration=0.2)
+def reset_itemns():
+    p.moveTo(x=203, y=-727,duration=0.2)
     p.click()
+    t.sleep(0.5)
+    p.moveTo(x=203, y=-727,duration=0.2)
+    p.click()
+    
     
 def mouse_reposition_1():
     p.moveTo(x=341, y=95,duration=0.2)
@@ -57,11 +63,11 @@ def home_home():
     t.sleep(0.2)
 
 # executing
-
+alert()
 select_mozila()
 select_link_bar()
 paste_link()
-click_aluno()
+reset_itemns()
 select_opera()
 select_first_window()
 home_home()

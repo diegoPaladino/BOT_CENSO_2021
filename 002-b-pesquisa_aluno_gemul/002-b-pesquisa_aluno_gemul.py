@@ -9,6 +9,9 @@ import time as t
 
 
 # declarations
+def alert():
+    p.alert('Começar pesquisa gemul')
+
 def select_excel():
     p.moveTo(x=317, y=-22,duration=0.2)
     p.click()
@@ -48,6 +51,12 @@ def select_dados_familiares():
     p.moveTo(x=127, y=-130,duration=0.2)
     p.click()
     
+def select_main():
+    p.moveTo(x=367, y=-25,duration=0.2)
+    p.click()
+    p.moveTo(x=170, y=180,duration=0.2)
+    p.click()
+    
     
     
     
@@ -57,6 +66,7 @@ def tab_tab():
     
     
 # executing
+alert()
 select_excel()
 enrollment_copy()
 select_opera()
@@ -66,4 +76,4 @@ tab_tab()
 t.sleep(2)
 scroll()
 select_dados_familiares()
-
+select_main()
