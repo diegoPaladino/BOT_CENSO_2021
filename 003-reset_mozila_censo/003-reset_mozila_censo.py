@@ -43,20 +43,20 @@ def mouse_reposition_1():
 def select_opera():
     p.moveTo(x=225, y=-22,duration=0.2)
     p.click()
-    t.sleep(0.2)
+    t.sleep(0.3)
     
 def select_first_window():
     p.moveTo(x=108, y=-888,duration=0.2)
     p.click()
-    t.sleep(0.2)
+    t.sleep(0.3)
     
 def refresh_enrollment():
     p.moveTo(x=247, y=-681,duration=0.2)
     p.click()
-    t.sleep(0.2)
+    t.sleep(0.3)
     p.moveTo(x=243, y=-558,duration=0.2)
     p.click()
-    t.sleep(0.2)
+    t.sleep(0.3)
     
 def home_home():
     p.hotkey('home')
@@ -69,7 +69,6 @@ select_link_bar()
 paste_link()
 reset_itemns()
 select_opera()
-select_first_window()
 home_home()
 refresh_enrollment()
 mouse_reposition_1()

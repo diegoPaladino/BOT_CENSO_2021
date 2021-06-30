@@ -92,8 +92,21 @@ def paste_clipboard():
     root = tk.Tk()
     root.withdraw()
     c = root.clipboard_get()
+    # pp.typewrite(c,interval=0.025)
     p.write(c,interval=0.025)
     t.sleep(0.2)
+    
+def copy_student_cpf():
+    p.moveTo(x=293, y=-418,duration=0.2)
+    p.dragTo(x=400, y=-419, button='left',duration=0.6)
+    p.hotkey('ctrl','c',duration=0.2)
+    t.sleep(0.2)
+    
+def select_mozila_cpf_box():
+    p.moveTo(282, y=-350,duration=0.2)
+    p.click()
+    t.sleep(0.2)
+
     
 def copy_student_name_opera():
     p.moveTo(x=294, y=-464,duration=0.2)
@@ -248,11 +261,16 @@ clicking_cadastrar_aluno()
 
 select_opera()
 home_home()
+copy_student_cpf()
+select_mozila()
+select_mozila_cpf_box()
+paste_clipboard()
+select_opera()
 copy_student_name_opera()
 select_mozila()
 home_home()
 select_name_box_mozila()
-paste_clipboard()
+paste_clipboard() #pasting the studant name
 tab_tab()
 select_opera()
 tab_tab()
