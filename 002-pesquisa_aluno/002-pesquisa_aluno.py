@@ -66,7 +66,6 @@ def enter():
     p.hotkey('enter')
     t.sleep(0.2)
     
-    
 def clicking_white_area():
     p.moveTo(x=230, y=-281,duration=0.2)
     p.click()

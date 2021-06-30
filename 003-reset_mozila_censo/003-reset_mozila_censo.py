@@ -51,6 +51,10 @@ def refresh_enrollment():
     p.moveTo(x=243, y=-558,duration=0.2)
     p.click()
     t.sleep(0.2)
+    
+def home_home():
+    p.hotkey('home')
+    t.sleep(0.2)
 
 # executing
 
@@ -60,5 +64,6 @@ paste_link()
 click_aluno()
 select_opera()
 select_first_window()
+home_home()
 refresh_enrollment()
 mouse_reposition_1()

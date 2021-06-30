@@ -16,3 +16,70 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 1624878649422	Marionette	INFO	Stopped listening on port 58592
+1624963900842	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileEGIy9r"
+1624963901989	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileEGIy9r\\search.json.mozlz4", (void 0)))
+1624963905277	Marionette	INFO	Listening on port 58958
+1624963905666	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624963939851	Marionette	INFO	Stopped listening on port 58958
+1624965611065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileq7rItg"
+1624965611845	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileq7rItg\\search.json.mozlz4", (void 0)))
+1624965614707	Marionette	INFO	Listening on port 61295
+1624965614759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624965685886	Marionette	INFO	Stopped listening on port 61295
+1625049143105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilecxWLM3"
+1625049146280	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilecxWLM3\\search.json.mozlz4", (void 0)))
+1625049151266	Marionette	INFO	Listening on port 50443
+1625049151614	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+1625050036019	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://js.zohocdn.com/zohosearch/h1/js/gshandler.js?_T=1625050064096, line 1: TypeError: eachLangcountry.lowerCase is not a function
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:8008/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625051516048	Marionette	INFO	Stopped listening on port 50443
