@@ -60,7 +60,11 @@ def refresh_enrollment():
     
 def home_home():
     p.hotkey('home')
-    t.sleep(0.2)
+    t.sleep(0.3)
+    
+def esc_esc():
+    p.hotkey('esc')
+    t.sleep(0.3)
 
 # executing
 alert()
@@ -69,6 +73,7 @@ select_link_bar()
 paste_link()
 reset_itemns()
 select_opera()
+esc_esc()
 home_home()
 refresh_enrollment()
 mouse_reposition_1()

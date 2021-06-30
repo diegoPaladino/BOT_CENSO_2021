@@ -34,7 +34,7 @@ import time as t
 
 # root.mainloop()
 ##############################################################
-
+algum = p.prompt('algum = ')
 sexo = p.prompt('sexo = ')
 estado = p.prompt('estado = ')
 cidade = p.prompt('cidade = ')
@@ -61,8 +61,16 @@ def positining_page():
     t.sleep(0.2)
 
 def clicking_cadastrar_aluno():
-    p.moveTo(x=310, y=-134,duration=0.2)
-    p.click()
+    if algum == 's':
+        p.hotkey('home')
+        t.sleep(0.2)
+        p.hotkey('pagedown')
+        t.sleep(0.2)
+        p.moveTo(x=313, y=-280,duration=0.2)
+        p.click()
+    else:
+        p.moveTo(x=310, y=-134,duration=0.2)
+        p.click()
     
 # def select_excel():
 #     p.moveTo(x=317, y=-22,duration=0.2)
@@ -224,14 +232,19 @@ def select_uf():
             
 def write_cidade():
     p.write(cidade,interval=0.025)
+    t.sleep(0.2)
     
 def deficiencia():
-    p.moveTo(x=331, y=-154,duration=0.2)
+    t.sleep(0.2)
+    p.moveTo(x=331, y=-224,duration=0.2)
     p.click()
 
 def enviar():
     p.moveTo(x=1283, y=-113,duration=0.2)
     p.click()
+    
+def positioning_cursor():
+    p.moveTo(x=1283, y=-113,duration=0.2)
 
     
 def tab_tab():
@@ -285,13 +298,13 @@ select_opera()
 clicking_white_area()
 end_end()
 # clicking_Dados_Familiares()
-copy_father_name()
+copy_mother_name()
 select_mozila()
 select_filiacao1()
 paste_clipboard()
 tab_tab()
 select_opera()
-copy_mother_name()
+copy_father_name()
 select_mozila()
 paste_clipboard()
 tab_tab()
@@ -309,4 +322,5 @@ t.sleep(5)
 write_cidade()
 deficiencia()
 end_end()
+positioning_cursor()
 # enviar()

@@ -37,10 +37,14 @@ def end_end():
     p.hotkey('end')
     t.sleep(0.2)
 
-
 def home_home():
     p.hotkey('home')
     t.sleep(0.2)
+    
+def esc_esc():
+    p.hotkey('esc')
+    t.sleep(0.2)
+    
 
 def select_24_box():
     p.moveTo(x=358, y=-334,duration=0.2)
@@ -90,6 +94,7 @@ end_end()
 select_25_check_box()
 enviar()
 select_excel()
+esc_esc()
 home_home()
 status_ok()
 select_main()
