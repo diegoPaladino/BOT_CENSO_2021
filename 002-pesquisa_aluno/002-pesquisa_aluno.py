@@ -64,6 +64,7 @@ def paste_clipboard():
     root.withdraw()
     c = root.clipboard_get()
     p.write(c,interval=0.025)
+    t.sleep(0.2)
     
 def enter():
     p.hotkey('enter')

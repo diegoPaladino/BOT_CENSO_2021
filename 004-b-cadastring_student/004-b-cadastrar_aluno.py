@@ -8,6 +8,9 @@ import tkinter as tk
 import time as t
 
 # declarations
+def alert():
+    p.alert('Começar cadastro')
+    
 def select_opera():
     p.moveTo(x=225, y=-22,duration=0.2)
     p.click()
@@ -55,7 +58,13 @@ def localizacao():
     p.hotkey('n')
     t.sleep(0.2)
     
+def clicking_white_area():
+    p.moveTo(x=230, y=-281,duration=0.2)
+    p.click()
+    t.sleep(0.2)
     
+def positioning_cursor():
+    p.moveTo(x=1302, y=-168,duration=0.2)
 
     
 def esc_esc():
@@ -73,10 +82,16 @@ def tab_tab():
 def down_down():
     p.hotkey('down')
     t.sleep(0.2)
+    
+def end_end():
+    p.hotkey('end')
+    t.sleep(0.2)
+    
 
 
 
 # execution
+alert()
 select_opera()
 esc_esc()
 home_home()
@@ -85,9 +100,11 @@ select_mozila()
 select_num_cert_nasc_box()
 paste_clipboard()
 tab_tab()
-tab_tab
+tab_tab()
 select_opera()
-down_down()
+t.sleep(0.3)
+clicking_white_area()
+end_end()
 click_endereco()
 copy_cep()
 select_mozila()
@@ -96,5 +113,9 @@ tab_tab()
 tab_tab()
 tab_tab()
 urbana()
+tab_tab()
 localizacao()
+tab_tab()
+end_end()
+positioning_cursor()
 

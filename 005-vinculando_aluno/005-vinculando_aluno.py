@@ -28,7 +28,7 @@ def select_class_box():
     t.sleep(0.5)
 
 def select_class():
-    p.press('down',presses=1)#                               <<<<<<<<<<<<<< CLASS SELECTION
+    p.press('down',presses=3)#                               <<<<<<<<<<<<<< CLASS SELECTION
     t.sleep(0.2)
     p.hotkey('tab')
     t.sleep(0.2)
@@ -45,6 +45,9 @@ def esc_esc():
     p.hotkey('esc')
     t.sleep(0.2)
     
+def up_up():
+    p.hotkey('up')
+    t.sleep(0.2)
 
 def select_24_box():
     p.moveTo(x=358, y=-334,duration=0.2)
@@ -62,11 +65,11 @@ def enviar():
     p.click()
     t.sleep(2)
     
-def select_main():
-    p.moveTo(x=367, y=-25,duration=0.2)
-    p.click()
-    p.moveTo(x=170, y=180,duration=0.2)
-    p.click()
+# def select_main():
+#     p.moveTo(x=367, y=-25,duration=0.2)
+#     p.click()
+#     p.moveTo(x=170, y=180,duration=0.2)
+#     p.click()
     
 def select_excel():
     p.moveTo(x=317, y=-22,duration=0.2)
@@ -79,6 +82,15 @@ def status_ok():
     t.sleep(0.2)
     p.hotkey('enter')
     t.sleep(0.2)
+    p.hotkey('up')
+    t.sleep(0.2)
+    
+def select_main():
+    p.moveTo(x=367, y=-25,duration=0.2)
+    p.click()
+    p.moveTo(x=170, y=180,duration=0.2)
+    p.click()
+
 
 
     

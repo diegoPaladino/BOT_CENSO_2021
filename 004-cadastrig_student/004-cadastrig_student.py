@@ -231,8 +231,13 @@ def select_uf():
             p.write('to')
             
 def write_cidade():
-    p.write(cidade,interval=0.025)
-    t.sleep(0.2)
+    if cidade == 'goiania':
+        p.hotkey('g')
+        t.sleep(0.2)
+        p.press('down',presses=4,interval=0.025)
+    else:
+        p.write(cidade,interval=0.025)
+        t.sleep(0.2)
     
 def deficiencia():
     t.sleep(0.2)
@@ -318,9 +323,10 @@ tab_tab()
 tab_tab()
 select_uf()
 tab_tab()
-t.sleep(5)
+t.sleep(3)
 write_cidade()
-deficiencia()
+tab_tab()
 end_end()
+deficiencia()
 positioning_cursor()
 # enviar()
