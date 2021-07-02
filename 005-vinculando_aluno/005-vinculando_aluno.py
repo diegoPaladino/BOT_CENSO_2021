@@ -91,6 +91,17 @@ def select_main():
     p.moveTo(x=170, y=180,duration=0.2)
     p.click()
 
+def select_mozila():
+    p.moveTo(x=271, y=-28,duration=0.2)
+    p.click()
+    t.sleep(0.2)
+    
+def reset_itemns():
+    p.moveTo(x=203, y=-727,duration=0.2)
+    p.click()
+    t.sleep(0.5)
+    p.moveTo(x=203, y=-727,duration=0.2)
+    p.click()
 
 
     
@@ -109,4 +120,6 @@ select_excel()
 esc_esc()
 home_home()
 status_ok()
+select_mozila()
+reset_itemns()
 select_main()
