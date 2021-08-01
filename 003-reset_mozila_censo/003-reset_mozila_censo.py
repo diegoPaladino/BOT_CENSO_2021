@@ -38,7 +38,8 @@ def reset_itemns():
     
     
 def mouse_reposition_1():
-    p.moveTo(x=341, y=95,duration=0.2)
+    p.moveTo(x=369, y=-25,duration=0.2)
+    p.click()
     
 def select_opera():
     p.moveTo(x=225, y=-22,duration=0.2)
@@ -51,10 +52,10 @@ def select_first_window():
     t.sleep(0.3)
     
 def refresh_enrollment():
-    p.moveTo(x=247, y=-681,duration=0.2)
+    p.moveTo(x=254, y=-709,duration=0.2)
     p.click()
     t.sleep(0.3)
-    p.moveTo(x=243, y=-558,duration=0.2)
+    p.moveTo(x=245, y=-582,duration=0.2)
     p.click()
     t.sleep(0.3)
     

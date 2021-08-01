@@ -31,3 +31,15 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1627847386758	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627850653100	Marionette	INFO	Stopped listening on port 57598
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rs\\diego\\AppData\\Local\\Temp\\rust_mozprofilej07anq"
+1627850175547	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilej07anq\\search.json.mozlz4", (void 0)))
+1627850179828	Marionette	INFO	Listening on port 60189
+1627850180117	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
