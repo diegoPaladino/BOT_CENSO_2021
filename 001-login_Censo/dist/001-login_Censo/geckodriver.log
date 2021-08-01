@@ -1,0 +1,33 @@
+1627847230457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile0aSQl0"
+1627847231245	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile0aSQl0\\search.json.mozlz4", (void 0)))
+1627847234192	Marionette	INFO	Listening on port 57367
+1627847234747	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1627847282721	Marionette	INFO	Stopped listening on port 57367
+1627847313876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile2zMtmG"
+1627847314632	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile2zMtmG\\search.json.mozlz4", (void 0)))
+1627847317232	Marionette	INFO	Listening on port 57447
+1627847317575	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627847341231	Marionette	INFO	Stopped listening on port 57447
+1627847351538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilegJUWdP"
+1627847353557	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilegJUWdP\\search.json.mozlz4", (void 0)))
+1627847356822	Marionette	INFO	Listening on port 57523
+1627847356886	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4108, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627847368927	Marionette	INFO	Stopped listening on port 57523
+1627847382534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileS2Cner"
+1627847383362	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileS2Cner\\search.json.mozlz4", (void 0)))
+1627847386310	Marionette	INFO	Listening on port 57598
+1627847386758	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
