@@ -28,7 +28,7 @@ def select_class_box():
     t.sleep(0.5)
 
 def select_class():
-    p.press('down',presses=12)#                               <<<<<<<<<<<<<< CLASS SELECTION
+    p.press('down',presses=16)#                               <<<<<<<<<<<<<< CLASS SELECTION
     t.sleep(0.2)
     p.hotkey('tab')
     t.sleep(0.2)
