@@ -43,7 +43,7 @@ def select_pesquisar_student_censo():
     p.click()
     t.sleep(0.2)
     p.hotkey('home')
-    t.sleep(1)
+    t.sleep(2)
     
 def paste_student_name():
     p.moveTo(x=327, y=-134,duration=0.2)
@@ -105,6 +105,9 @@ def select_main():
 def close_search_window():
     p.moveTo(x=1424, y=-69,duration=0.2)
     p.click()
+    
+def position_on_vincular():
+    p.moveTo(x=300, y=-383,duration=0.2)
 
 
 # execution
@@ -130,3 +133,4 @@ search_mother_name()
 enter()
 close_search_window()
 select_main()
+position_on_vincular()

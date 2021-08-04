@@ -28,7 +28,7 @@ def select_class_box():
     t.sleep(0.5)
 
 def select_class():
-    p.press('down',presses=3)#                               <<<<<<<<<<<<<< CLASS SELECTION
+    p.press('down',presses=12)#                               <<<<<<<<<<<<<< CLASS SELECTION
     t.sleep(0.2)
     p.hotkey('tab')
     t.sleep(0.2)
@@ -88,7 +88,7 @@ def status_ok():
 def select_main():
     p.moveTo(x=367, y=-25,duration=0.2)
     p.click()
-    p.moveTo(x=170, y=180,duration=0.2)
+    p.moveTo(x=63, y=120,duration=0.2)
     p.click()
 
 def select_mozila():

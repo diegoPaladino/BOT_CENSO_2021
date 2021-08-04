@@ -46,6 +46,11 @@ def select_opera():
     p.click()
     t.sleep(0.3)
     
+def select_first_opera_window():
+    p.moveTo(x=125, y=-885,duration=0.2)
+    p.click()
+    t.sleep(0.3)
+    
 def select_first_window():
     p.moveTo(x=108, y=-888,duration=0.2)
     p.click()
@@ -74,6 +79,7 @@ select_link_bar()
 paste_link()
 reset_itemns()
 select_opera()
+select_first_opera_window()
 esc_esc()
 home_home()
 refresh_enrollment()

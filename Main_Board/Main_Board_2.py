@@ -53,9 +53,6 @@ label = Label(
 label.place(x=0, y=0)
 
 
-
-
-
 # Bottons
 cor_botao='#01ae0d'
 
@@ -81,7 +78,7 @@ botao_5 = Button(window, text="Vincular", command=ao_clicar_vinculando_aluno, bg
 botao_5.place(x=395,y=80)
 
 
-# executing
+    # executing
 # # ABRINDO IMAGEM
 
 ###############################################################
