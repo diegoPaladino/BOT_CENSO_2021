@@ -16,9 +16,8 @@ def select_excel():
     p.click()
     t.sleep(0.2)
     
-    
 def reset_position_excel():
-    p.hotkey('home')
+    p.hotkey('cls')
     t.sleep(0.2)
     
 def select_student_column():
@@ -41,9 +40,9 @@ def select_pesquisar_student_censo():
     t.sleep(0.2)
     p.moveTo(x=63, y=-431,duration=0.2)
     p.click()
-    t.sleep(0.2)
+    t.sleep(0.3)
     p.hotkey('home')
-    t.sleep(2)
+    t.sleep(1.3)
     
 def paste_student_name():
     p.moveTo(x=327, y=-134,duration=0.2)
@@ -132,5 +131,5 @@ select_excel()
 search_mother_name()
 enter()
 close_search_window()
-select_main()
-position_on_vincular()
+# select_main()
+# position_on_vincular()
