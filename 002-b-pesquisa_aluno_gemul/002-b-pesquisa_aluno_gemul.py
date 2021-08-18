@@ -10,7 +10,7 @@ import time as t
 
 # declarations
 def alert():
-    p.alert('Começar pesquisa gemul')
+    p.alert('Começar pesquisa B gemul?')
 
 def select_excel():
     p.moveTo(x=317, y=-22,duration=0.2)
@@ -32,7 +32,7 @@ def select_opera():
     t.sleep(0.2)
 
 def select_enrollment_box():
-    p.moveTo(x=366, y=-524,duration=0.2)
+    p.moveTo(x=358, y=-554,duration=0.2)
     p.click()
     t.sleep(0.2)
     
@@ -43,22 +43,29 @@ def paste_clipboard():
     p.write(c,interval=0.025)
     t.sleep(0.2)
     
-def scroll():
+def scroll_300_down():
     p.scroll(-300)
     t.sleep(0.2)
     
+def scroll_100_up():
+    p.scroll(-100)
+    t.sleep(0.2)
+    
 def select_dados_familiares():
-    p.moveTo(x=127, y=-130,duration=0.2)
+    p.moveTo(x=114, y=-160,duration=0.2)
     p.click()
+    t.sleep(0.2)
+    
+def select_endereco():
+    p.moveTo(x=102, y=-182,duration=0.2)
+    p.click()
+    t.sleep(0.2)
     
 def select_main():
     p.moveTo(x=367, y=-25,duration=0.2)
     p.click()
     p.moveTo(x=170, y=180,duration=0.2)
     p.click()
-    
-    
-    
     
 def tab_tab():
     p.hotkey('tab')
@@ -74,6 +81,8 @@ select_enrollment_box()
 paste_clipboard()
 tab_tab()
 t.sleep(2)
-scroll()
+scroll_300_down()
 select_dados_familiares()
-select_main()
+select_endereco()
+scroll_100_up()
+# select_main()
