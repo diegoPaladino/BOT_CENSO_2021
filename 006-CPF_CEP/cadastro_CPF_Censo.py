@@ -29,10 +29,17 @@ def select_mozila():
 def select_Mozila_CPF_box():
     p.moveTo(x=283, y=-348,duration=0.2)
     p.click()
+    t.sleep(0.2)
     
 def enviar():
     p.moveTo(x=1282, y=-112,duration=0.2)
     p.click()
+    t.sleep(0.2)
+    
+def select_white_area():
+    p.moveTo(x=237, y=-296,duration=0.2)
+    p.click()
+    t.sleep(0.2)
     
 #####################################
 def home_home():
@@ -56,10 +63,12 @@ def pagedown_pagedown():
 
     
 # code execution
+alert()
 select_opera()
 copy_CPF_box()
 select_mozila()
 select_Mozila_CPF_box()
 write_write()
+select_white_area()
 pagedown_pagedown()
 enviar()

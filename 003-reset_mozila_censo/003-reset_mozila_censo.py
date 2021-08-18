@@ -26,7 +26,7 @@ def select_link_bar():
 def paste_link():
     p.write('http://censobasico.inep.gov.br/censobasico/#/inicioMatricula')
     p.hotkey('enter')
-    t.sleep(0.5)
+    t.sleep(1)
     
     
 def reset_itemns():
@@ -60,7 +60,7 @@ def refresh_enrollment():
     p.moveTo(x=254, y=-709,duration=0.2)
     p.click()
     t.sleep(0.3)
-    p.moveTo(x=245, y=-582,duration=0.2)
+    p.moveTo(x=237, y=-603,duration=0.2)
     p.click()
     t.sleep(0.3)
     

@@ -113,17 +113,23 @@ def select_visual_studio():
     p.click()
     
 def select_vs_002_b_cadastrar():
-    p.moveTo(x=1042, y=47,duration=0.2)
+    p.moveTo(x=774, y=51,duration=0.2)
     p.click()
     
 def select_play():
-    p.moveTo(x=1288, y=48,duration=0.2)
+    p.moveTo(x=1291, y=49,duration=0.2)
     p.click()
+
+################################
+def esc_esc():
+    p.hotkey('esc')
+    t.sleep(0.2)
 
 
 # execution
 alert()
 select_excel()
+esc_esc()
 reset_position_excel()
 select_student_column()
 copy_student_name()
