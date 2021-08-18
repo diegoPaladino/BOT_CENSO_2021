@@ -107,6 +107,18 @@ def close_search_window():
     
 def position_on_vincular():
     p.moveTo(x=300, y=-383,duration=0.2)
+    
+def select_visual_studio():
+    p.moveTo(x=366, y=-23,duration=0.2)
+    p.click()
+    
+def select_vs_002_b_cadastrar():
+    p.moveTo(x=1042, y=47,duration=0.2)
+    p.click()
+    
+def select_play():
+    p.moveTo(x=1288, y=48,duration=0.2)
+    p.click()
 
 
 # execution
@@ -131,5 +143,8 @@ select_excel()
 search_mother_name()
 enter()
 close_search_window()
+select_visual_studio()
+select_vs_002_b_cadastrar()
+select_play()
 # select_main()
 # position_on_vincular()

@@ -57,12 +57,10 @@ def clicking_white_area():
     p.moveTo(x=230, y=-281,duration=0.2)
     p.click()
     t.sleep(0.2)
-    
 
-    
     
 #################################
-
+alert()
 select_opera()
 copy_CEP_box()
 select_mozila()
