@@ -77,8 +77,11 @@ def select_mozila():
     t.sleep(0.2)
     
     
+
+    
 # executing
-alert()
+# alert()
+
 select_excel()
 enrollment_copy()
 select_opera()
