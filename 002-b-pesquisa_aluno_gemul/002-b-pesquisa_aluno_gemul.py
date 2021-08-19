@@ -71,6 +71,11 @@ def tab_tab():
     p.hotkey('tab')
     t.sleep(0.2)
     
+def select_mozila():
+    p.moveTo(x=271, y=-28,duration=0.2)
+    p.click()
+    t.sleep(0.2)
+    
     
 # executing
 alert()
@@ -85,4 +90,5 @@ scroll_300_down()
 select_dados_familiares()
 select_endereco()
 scroll_100_up()
+select_mozila() 
 # select_main()
