@@ -124,6 +124,10 @@ def select_play():
 def esc_esc():
     p.hotkey('esc')
     t.sleep(0.2)
+    
+def enter_enter():
+    p.hotkey('enter')
+    t.sleep(0.2)
 
 
 # execution
@@ -152,5 +156,6 @@ close_search_window()
 select_visual_studio()
 select_vs_002_b_cadastrar()
 select_play()
+t.sleep(0.2)
 # select_main()
 # position_on_vincular()
