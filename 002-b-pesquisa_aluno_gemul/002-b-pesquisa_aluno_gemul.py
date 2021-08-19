@@ -64,8 +64,8 @@ def select_endereco():
 def select_main():
     p.moveTo(x=367, y=-25,duration=0.2)
     p.click()
-    p.moveTo(x=170, y=180,duration=0.2)
-    p.click()
+    # p.moveTo(x=170, y=180,duration=0.2)   <<<<<<<<<<<<<<<<<<<<<<<<<<<<reverter aqui depois
+    # p.click()
     
 def tab_tab():
     p.hotkey('tab')
