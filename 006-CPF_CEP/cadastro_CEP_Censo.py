@@ -112,7 +112,7 @@ enviar_CEP()
 home_home()
 #refreshing opera:
 select_opera()
-select_first_opera_window()
+home_home()
 select_first_window()
 refresh_enrollment()
 select_visual_studio()
