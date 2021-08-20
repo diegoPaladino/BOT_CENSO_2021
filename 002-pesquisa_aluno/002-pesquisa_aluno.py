@@ -156,6 +156,7 @@ close_search_window()
 select_visual_studio()
 select_vs_002_b_cadastrar()
 select_play()
-t.sleep(0.2)
+t.sleep(0.2
+        )
 # select_main()
 # position_on_vincular()
